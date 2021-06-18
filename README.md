@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+A closure is when a function grabs another function from its parent scope.
+----------------------------------------------------------------------------
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +66,14 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Closer is used with name and newRoll. I can tell because the program has to reach back up to the parent function in order to execute.
+--------------------------------------------------------------------------------
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the console.log will be the same. but the outcome of the newRoll will be different because the program generates a random number with each roll.
+--------------------------------------------------------------------------------
 c. What is the lexical scope of `newRoll`? 
+The lexical scope is the parent function. 
+
 
 
 ### Task 3 - Stretch Goals
